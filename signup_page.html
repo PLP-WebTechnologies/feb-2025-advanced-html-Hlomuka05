@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Our Website</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Steps to Complete the Registration:</h2>
+        <ol type="I"> <!-- Roman numeral list -->
+            <li>Fill in the Name, Email, and Password fields.</li>
+            <li>Choose your preferences from the dropdown and radio buttons.</li>
+            <li>Click submit to register.</li>
+        </ol>
+    </section>
+
+    <!-- External Image -->
+    <section>
+        <h2>Example Image</h2>
+        <img src="https://images.pexels.com/photos/1082092/pexels-photo-1082092.jpeg" alt="Sample Image" width="500">
+    </section>
+
+    <!-- Contacts Table -->
+    <section>
+        <h2>Contact Information</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>123 Elm Street</td>
+                    <td>555-1234</td>
+                    <td>john.doe@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>456 Oak Avenue</td>
+                    <td>555-5678</td>
+                    <td>jane.smith@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary Johnson</td>
+                    <td>789 Pine Road</td>
+                    <td>555-9876</td>
+                    <td>mary.johnson@example.com</td>
+                </tr>
+                <tr>
+                    <td>Chris Lee</td>
+                    <td>101 Maple Drive</td>
+                    <td>555-5432</td>
+                    <td>chris.lee@example.com</td>
+                </tr>
+                <tr>
+                    <td>Patricia Brown</td>
+                    <td>202 Birch Lane</td>
+                    <td>555-8765</td>
+                    <td>patricia.brown@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="POST">
+            <!-- Name Field -->
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <!-- Email Field -->
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <!-- Password Field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+            <!-- Date Field -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <!-- Dropdown Field -->
+            <label for="country">Select your country:</label>
+            <select id="country" name="country" required>
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+                <option value="australia">Australia</option>
+            </select><br><br>
+
+            <!-- Radio Buttons -->
+            <fieldset>
+                <legend>Gender:</legend>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female" required><br><br>
+            </fieldset>
+
+            <!-- Checkboxes -->
+            <fieldset>
+                <legend>Preferences:</legend>
+                <label for="news">Subscribe to newsletter:</label>
+                <input type="checkbox" id="news" name="newsletter"><br>
+                <label for="offers">Receive special offers:</label>
+                <input type="checkbox" id="offers" name="offers"><br><br>
+            </fieldset>
+
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Multimedia Section (Audio and Video) -->
+    <section>
+        <h2>Multimedia</h2>
+        <h3>Audio Example:</h3>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio><br><br>
+
+        <h3>Video Example:</h3>
+        <video width="320" height="240" controls>
+            <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+</body>
+</html>
